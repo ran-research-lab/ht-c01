@@ -1,7 +1,8 @@
 #include "HashTable.h"
 using namespace std;
 
-#include<iostream>
+#include <iostream>
+#include <fstream>
 #define CATCH_CONFIG_MAIN
 #include "HashTable.h"
 #include <vector>
@@ -36,5 +37,6 @@ TEST_CASE( "Pushing and popping to the AStack", "[AStack]" ) {
 
     CHECK(H.find("maiz") == -1);
     CHECK(H.find("ginebra") == 2125);
+
 
 }

@@ -1,4 +1,4 @@
-/* Rafael Arce Nazario*/
+/* Rafael Arce Nazario    - 2020*/
 
 
 #include "HashTable.h"
